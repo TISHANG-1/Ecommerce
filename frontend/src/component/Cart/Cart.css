@@ -1,0 +1,16 @@
+.cartHeader{
+   background-color: rgba(3, 3, 226, 0.171);
+   box-sizing: border-box ;   
+   width:90% ; 
+   color : Black ; 
+   grid-template-columns: 4fr 1fr 1fr ; 
+   display: grid;  
+   margin:auto  ;
+   font : 300 0.7vmax "Roboto" ; 
+}
+.cartHeader > p{ 
+     margin: 10px ; 
+} 
+.cartHeader > p:last-child{ 
+    text-align: end ; 
+}

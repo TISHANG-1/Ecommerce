@@ -1,0 +1,103 @@
+footer{
+
+   margin-top:10vmax ; 
+   padding: 2vmax ; 
+   background-color:  rgb(34 , 33 ,33);
+   color: white ;
+   display: flex; 
+   align-items : center ; 
+
+   
+}
+.leftFooter{
+
+  width: 20%  ; 
+  display : flex ;  
+  flex-direction: column ; 
+  align-items: center ;   
+
+
+} 
+.leftFooter > h4 {
+     font-family : "Franklin Gothic Medium" , "Arial Narrow" ,Arail ,sans-serif ;     
+     align-items: center;
+
+
+  }  
+
+  .leftFooter >p{ 
+     text-align: center ; 
+     font-family : "Lucida Sans" , "Lucida Sans Regular" , "Lucida Grande" , 
+     "Lucida Sans Unicode" , Geneva, Verdana, sans-serif ;
+   
+  } 
+
+  .leftFooter > img { 
+     width: 10vmax ; 
+     margin : 1vmax ; 
+     cursor: pointer ; 
+
+
+  } 
+  .midFooter{
+
+    width: 60%  ; 
+    display : flex ;  
+    flex-direction: column ; 
+    align-items: center ;  
+    font-size: 1vmax ;   
+   
+
+  }
+  .midFooter > h1{ 
+       
+    align-items: center; 
+    font-size: 4vmax;
+
+   }  
+   .midFooter > h1:hover{ 
+    color:khaki ; 
+    align-items: center; 
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    font-size: 6vmax; 
+    transition:0.4s;
+
+   } 
+ .midFooter > p{ 
+       
+     width: 60% ;  
+     margin: 1vmax auto ;  
+     text-align: center;
+      
+
+   }  
+  .rightFooter{
+     width: 20%  ;  
+     display: flex ;  
+     flex-direction: column ;  
+     align-items: center ;  
+     /* text-decoration: underline; */
+  }
+
+  .rightFooter >a  { 
+    text-decoration: none;
+    font-size : 1.4vmax ; 
+    font-family: 'Courier New', Courier, monospace; 
+    margin: 0   ; 
+    text-shadow: 1vmax;
+    color: white ;  
+    transition: 0.5s;
+
+}  
+.rightFooter > a:hover { 
+    text-decoration: none;
+    
+    margin:1vmax   ; 
+    color: green ; 
+    font-size: 2vmax ; 
+    font-family:Georgia, 'Times New Roman', Times, serif ;  
+    transition: 0.5s;
+
+
+}  
+

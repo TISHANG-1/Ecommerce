@@ -1,0 +1,38 @@
+*{
+    margin : 0; 
+    scroll-behavior: smooth;   
+}  
+
+
+/*chrom , safari , edge , opera*/
+
+input::-webkit-outer-spin-button , 
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;  
+    margin: 0 ; 
+}
+ 
+
+input[type="number"]{ 
+      -moz-appearance: textfield;
+} 
+ 
+.greenColor 
+{
+    color: green ; 
+}
+.redColor { 
+     color : red ; 
+}  
+
+.speedDial{ 
+     right: 3vmax;
+     position: fixed ;
+     top:3vmax ; 
+
+}  
+.speedDialIcon{ 
+    width : 56px; 
+    height: 56px; 
+    border-radius: 100%; 
+}

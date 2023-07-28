@@ -1,0 +1,50 @@
+npx  create-react-app .  // for create a react app
+
+ npm i axios react-alert react-alert-template-basic react-helmet react-redux redux redux-thunk redux-devtools-extension react-router-dom overlay-navbar  
+
+
+ what does react router dom used for??  
+
+
+ #shortCuts   
+ -> rafce  
+
+imp : css clip path  maker   
+
+
+to fix CORS issue
+
+/*
+
+app.use(function(req, res, next) {
+    res.header('Access-Control-Allow-Origin', 'http://localhost:3000');
+    res.header(
+      'Access-Control-Allow-Headers',
+      'Origin, X-Requested-With, Content-Type, Accept'
+    );
+    next();
+  });
+
+
+*/
+
+redux : reducers , constants , actions ;   
+
+/* To show image slide show */
+Carousel
+
+/*chrom , safari , edge , opera*/
+
+input::-webkit-outer-spin-button , 
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;  
+    margin: 0 ; 
+}
+ 
+
+input[type="number"]{ 
+      -moz-appearance: textfield;
+} 
+
+ 
+we are using material/ui icons from react in many of the icons
